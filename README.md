@@ -5,7 +5,7 @@
 
 <h3>API Description</h3>
 <p>The recipe API used for this app is <a href='https://spoonacular.com/food-api/docs' target='_blank'>Spoonacular</a> and it has a database of
-over 360,000 recipes. The backend API repo can be found <a href='https://github.com/willwalker753/allrecipes-api' target='_blank'>here</a>.</p>
+over 360,000 recipes. The frontend repo can be found <a href='https://github.com/willwalker753/allrecipes' target='_blank'>here</a>.</p>
 
 <hr>
 
