@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require test/setup.js",
+    "test": "mocha",
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
     "predeploy": "npm audit",
@@ -17,16 +17,20 @@
     "bcrypt": "^5.0.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
     "cors": "^2.8.5",
     "couchbase": "^3.0.4",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^3.22.0",
+    "jest": "^26.1.0",
+    "mocha": "^8.0.1",
     "mongodb": "^3.5.9",
     "mongoose": "^5.9.23",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.4",
     "object-hash": "^2.0.3",
+    "supertest": "^4.0.2",
     "uuid": "^8.2.0"
   }
 }
